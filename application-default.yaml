@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: minikube-sample
+  namespace: default
+data:
+  app.data.name: name
+  application.yml: |-
+    app:
+      data:
+        test: test
